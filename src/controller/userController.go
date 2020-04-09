@@ -32,6 +32,7 @@ func CreateUser(ctx iris.Context) {
 }
 
 func GetUsers(ctx iris.Context) {
+
 	type rule struct {
 		Account string `valid:"-"`
 		Gender  string `valid:"in(female|male)"`
