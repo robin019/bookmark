@@ -1,0 +1,5 @@
+建立Migration的Script
+從root cd db -> sql-migrate new __action__table__
+完成之後 -> sql-migrate up
+
+把govalidator降回舊版 20190424111038-f61b66f89f4a

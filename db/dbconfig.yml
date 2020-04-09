@@ -1,0 +1,5 @@
+development:
+    dialect: mysql
+    datasource: root:123456@tcp(172.12.0.3)/test1?parseTime=true
+    dir: ./migrations
+    table: migrations_bookmark
